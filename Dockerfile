@@ -1,8 +1,8 @@
 
 FROM python:latest
 
-WORKDIR /app/
+WORKDIR /
 
-COPY hello.py ./
+COPY hello.py .
 
 CMD [ "python3", "./hello.py"]
